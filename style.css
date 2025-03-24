@@ -1,0 +1,68 @@
+/* *{ */
+    /* padding: 0;
+margin: 0; */
+/* } */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.body{
+    background-image: url(screenshort.png);
+    min-height: 100vh;
+   background-size: 100vw 100vh;
+   background-repeat: no-repeat;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+  
+
+  
+}
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+#hiscoreBox{
+    position: absolute;
+    top: 45px;
+   right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+#board{
+    background-color: rgb(158, 205, 158);
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+.head{
+background-color: red;
+border: 2px solid purple;
+transform: scale(1.02);
+border-radius: 9px;
+}
+.food{
+background-color: yellow;
+height: 40px;
+width: 40px;
+border: .25px solid black;
+border-radius: 8px;
+}
+.snake{
+    background-color: rgb(181, 91, 181);
+    border: .25px solid white;
+    border-radius: 9px;
+    font-size: 60px;
+
+    }
